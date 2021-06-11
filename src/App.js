@@ -9,7 +9,7 @@ import Contact from './Modules/Contact';
 
 function App() {
   return (
-    <BrowserRouter basename={process.env.PUBLIC_URL} >
+    <BrowserRouter basename="/" >
       <Switch>
         <Route exact path="/" component={Home} />
         <Route exact path="/skills" component={Skills} />
