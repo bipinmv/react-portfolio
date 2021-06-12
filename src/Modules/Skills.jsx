@@ -16,7 +16,7 @@ const Skills = () => {
               <SkillsBarChart skillsData={skillsData} skills={skillsData.map(obj => obj.name)} />
             </div>
           </Col>
-          <Col>
+          <Col className="skill-icons-container">
             <Row className="justify-content-evenly">
               {skillsList.map(skill => (
                 <IconCard key={skill.label} src={skill.src} label={skill.label} />

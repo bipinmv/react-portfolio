@@ -6,6 +6,9 @@ import useWindowDimensions from '../utils/dimensionHelper';
 const navItems = [{
   label: "Home",
   route: "/"
+  // }, {
+  //   label: "About",
+  //   route: "/about"
 }, {
   label: "Skills",
   route: "/skills"
@@ -30,7 +33,7 @@ const CustomNav = () => {
             <NavLink
               exact
               key={item.label}
-              className="color-customBlue w-100 text-decoration-none text-center navLink"
+              className="color-customBlue w-100 text-decoration-none text-center navLink mt-2"
               activeClassName="font-weight-bold"
               to={item.route}
             >
