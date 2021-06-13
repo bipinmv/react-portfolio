@@ -73,15 +73,23 @@ export const skillsList = [{
 }];
 
 export const projectsList = [{
-  label: '1',
-  imgSrc: '',
-  src: '',
-  githubSrc: '',
-  description: ''
+  label: 'Resume Builder',
+  imgSrc: 'static/images/resume-builder.png',
+  src: 'https://bipinmv.github.io/resume-builder/',
+  githubSrc: 'https://github.com/bipinmv/resume-builder',
+  description: 'Front-end for resume builder made using React.JS'
 }, {
-  label: '2',
-  imgSrc: '',
+  label: 'Smart Shopping search',
+  imgSrc: 'static/images/smart-search.png',
   src: '',
+  githubSrc: 'https://github.com/bipinmv/smart-shopping-search',
+  description: 'E-commerce web app made using Django 3.0'
+}, {
+  label: 'Movie Finder',
+  imgSrc: 'static/images/movie-finder.png',
+  src: 'https://bipinmv.github.io/movie-finder/',
+  githubSrc: 'https://github.com/bipinmv/movie-finder',
+  description: 'You can see a list of movies released in a particular year'
 }];
 
 export const contactDetails = [{
