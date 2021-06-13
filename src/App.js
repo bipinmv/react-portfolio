@@ -1,19 +1,17 @@
-import React from 'react';
-import './App.css';
-import { BrowserRouter, Switch, Route } from 'react-router-dom';
-import Home from './Modules/Home';
-import PageNotFound from './Modules/PageNotFound';
-import About from './Modules/About';
-import Skills from './Modules/Skills';
-import Projects from './Modules/Projects';
-import Contact from './Modules/Contact';
+import React from "react";
+import "./App.scss";
+import { BrowserRouter, Switch, Route } from "react-router-dom";
+import Home from "./components/Home";
+import PageNotFound from "./components/PageNotFound";
+import Skills from "./components/Skills";
+import Projects from "./components/Projects";
+import Contact from "./components/Contact";
 
 function App() {
   return (
     <BrowserRouter basename="/" >
       <Switch>
         <Route exact path="/" component={Home} />
-        <Route exact path="/about" component={About} />
         <Route exact path="/skills" component={Skills} />
         <Route exact path="/projects" component={Projects} />
         <Route exact path="/contact" component={Contact} />

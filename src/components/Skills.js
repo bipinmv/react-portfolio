@@ -1,8 +1,8 @@
-import React from 'react';
-import CustomNav from '../Components/NavBar';
-import { Container, Row, Col } from 'react-bootstrap';
-import IconCard from '../Components/IconCard';
-import { skillsList, skillsData } from '../utils/helperList';
+import React from "react";
+import CustomNav from "./NavBar";
+import { Container, Row, Col } from "react-bootstrap";
+import IconCard from "./IconCard";
+import { skillsList, skillsData } from "../utils/helperList";
 import SkillsBarChart from "../utils/skillBarChart";
 
 const Skills = () => {

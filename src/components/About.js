@@ -1,15 +1,13 @@
-import React from 'react';
-//import CustomNav from '../Components/NavBar';
-import { Container, Row, Col } from 'react-bootstrap';
-import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
-import 'react-vertical-timeline-component/style.min.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBriefcase, faGraduationCap } from '@fortawesome/free-solid-svg-icons';
+import React from "react";
+import { Container, Row, Col } from "react-bootstrap";
+import { VerticalTimeline, VerticalTimelineElement } from "react-vertical-timeline-component";
+import "react-vertical-timeline-component/style.min.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBriefcase, faGraduationCap } from "@fortawesome/free-solid-svg-icons";
 
 const About = () => {
     return (
         <>
-            {/* <CustomNav /> */}
             <Container className="mt-5 mr-lg-5" fluid>
                 <Row xs={1} md={2}>
                     <Col className="mb-3">

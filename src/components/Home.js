@@ -1,10 +1,10 @@
-import React from 'react';
-import CustomNav from '../Components/NavBar';
-import { Container, Button } from 'react-bootstrap';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import React from "react";
+import CustomNav from "./NavBar";
+import { Container, Button } from "react-bootstrap";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithubSquare, faLinkedin, faHackerrank } from "@fortawesome/free-brands-svg-icons";
-import CodingSvg from '../Icons/coding';
-import Particles from "../utils/Particles";
+import CodingSvg from "../utils/coding";
+import Particles from "../utils/particles";
 import Typist from "react-typist";
 import About from "./About"
 
@@ -37,7 +37,7 @@ const Home = () => {
                 {/* <Button className="bg-customBlue font-weight-bold shadow-sm border-0" onClick={() => window.open('https://drive.google.com/file/d/1l77DXpp747k_6qegd8pck8HUzd7iqpIL/view?usp=sharing', '_blank')}>Download Resume</Button> */}
               </div>
             </div>
-            <div className="w-50 my-auto d-none d-md-block ml-lg-5 pl-lg-5">
+            <div className="w-50 my-auto d-none d-md-block ml-lg-5">
               <CodingSvg />
             </div>
           </div>

@@ -1,7 +1,7 @@
-import React from 'react';
-import CustomNav from '../Components/NavBar';
-import { Container, Row, Col } from 'react-bootstrap';
-import { projectsList } from '../utils/helperList';
+import React from "react";
+import CustomNav from "./NavBar";
+import { Container, Row, Col } from "react-bootstrap";
+import { projectsList } from "../utils/helperList";
 
 const Projects = () => {
   return (

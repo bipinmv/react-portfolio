@@ -51,19 +51,22 @@ export const skillsList = [{
   src: 'https://img.icons8.com/color/144/000000/python.png'
 }, {
   label: 'Material UI',
-  src: 'https://material-ui.com/static/logo_raw.svg'
+  src: 'https://img.icons8.com/color/144/000000/material-ui.png'
 }, {
   label: 'Bootstrap',
   src: 'https://i.ibb.co/zx0Tt9M/bootstrap.png'
 }, {
   label: 'Sass',
-  src: 'https://i.ibb.co/zs6B3yR/sass.png'
+  src: 'https://img.icons8.com/color/144/000000/sass.png'
 }, {
   label: 'Highcharts',
   src: 'https://i.ibb.co/8KSXBXq/highcharts.png'
 }, {
   label: 'HTML5',
   src: 'https://img.icons8.com/color/144/000000/html-5.png'
+}, {
+  label: 'PostgreSQL',
+  src: 'https://img.icons8.com/color/144/000000/postgresql.png'
 }, {
   label: 'CSS3',
   src: 'https://img.icons8.com/color/144/000000/css3.png'
@@ -79,4 +82,20 @@ export const projectsList = [{
   label: '2',
   imgSrc: '',
   src: '',
+}];
+
+export const contactDetails = [{
+  iconSrc: "https://img.icons8.com/color/144/000000/phone.png",
+  type: "Contact Number",
+  data: "+91 9895051128"
+},
+{
+  iconSrc: "https://img.icons8.com/color/144/000000/gmail.png",
+  type: "Email",
+  data: "bipinmv23@gmail.com"
+},
+{
+  iconSrc: "https://img.icons8.com/color/144/000000/domain.png",
+  type: "Website",
+  data: "bipinmv.github.io"
 }]

@@ -1,5 +1,5 @@
-import React from 'react';
-import CustomNav from '../Components/NavBar';
+import React from "react";
+import CustomNav from "./NavBar";
 
 const FourOhFour = () => {
   return (
