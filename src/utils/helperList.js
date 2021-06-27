@@ -90,6 +90,12 @@ export const projectsList = [{
   src: 'https://bipinmv.github.io/movie-finder/',
   githubSrc: 'https://github.com/bipinmv/movie-finder',
   description: 'You can see a list of movies released in a particular year'
+}, {
+  label: 'Video Player',
+  imgSrc: 'static/images/video-player.png',
+  src: 'https://bipinmv.github.io/video-player/',
+  githubSrc: 'https://github.com/bipinmv/video-player',
+  description: ''
 }];
 
 export const contactDetails = [{

@@ -15,7 +15,7 @@ const Contact = () => {
           <Col xs={12} md={9}>
             <CardDeck>
               {contactDetails.map(obj => (
-                <Card className="contactCard">
+                <Card className="contactCard" key={obj.type}>
                   <div className="shadow d-flex justify-content-center text-center flex-column py-3">
                     <div>
                       <img className="contactImg" src={obj.iconSrc} alt={obj.type} />

@@ -21,8 +21,7 @@ class skillBarChart extends Component {
                 height: 370,
                 border: 0
             },
-            colors: ["#9999FF", "#8080FF", "#6666FF", "#4D4DFF", "#3333FF", "#9EC2FF", "#7B9FF2", "#4259C3", "#212AA5", "#000a94"],
-            // colors: ["#5f5f5f", "#545454", "#4a4a4a", "#3f3f3f", "#353535", "#9EC2FF", "#7B9FF2", "#4259C3", "#212AA5", "#000a94"],
+            //colors: ["#9999FF", "#8080FF", "#6666FF", "#4D4DFF", "#3333FF", "#9EC2FF", "#7B9FF2", "#4259C3", "#212AA5", "#000a94"],
             credits: {
                 enabled: false
             },
@@ -31,7 +30,7 @@ class skillBarChart extends Component {
                 align: "left",
                 style: {
                     color: "#000",
-                    fontSize: "12px",
+                    fontSize: "16px",
                     fontFamily: "Arial",
                 },
             },
@@ -44,7 +43,9 @@ class skillBarChart extends Component {
                     enabled: true,
                     allowOverlap: true,
                     style: {
-                        color: '#8283A0',
+                        color: "#8283A0",
+                        fontSize: "14px",
+                        fontWeight: "normal",
                         fontFamily: "Arial",
                     }
                 }
@@ -56,14 +57,11 @@ class skillBarChart extends Component {
                 lineWidth: 0,
                 stackLabels: {
                     enabled: false,
-                    // crop: false, 
-                    // overflow: "allow", 
-                    // x: this.props.stackLabelGap, 
                     style: {
-                        color: "#979AB1",
+                        color: "#3d3d40",
                         textOutline: "none",
                         fontWeight: "normal",
-                        fontSize: "11px",
+                        fontSize: "15px",
                         fontFamily: "Arial",
                     },
                 },
@@ -71,8 +69,8 @@ class skillBarChart extends Component {
                     enabled: false,
                     text: '',
                     style: {
-                        fontSize: "11px",
-                        color: '#8283A0',
+                        fontSize: "15px",
+                        color: '#3d3d40',
                         fontFamily: "Arial",
                         cursor: "default",
                         fill: "#8283A0",
@@ -81,7 +79,7 @@ class skillBarChart extends Component {
                 labels: {
                     enabled: true,
                     style: {
-                        color: '#8283A0',
+                        color: '#3d3d40',
                         fontFamily: "Arial",
                     },
                 }
@@ -109,13 +107,13 @@ class skillBarChart extends Component {
                 symbolRadius: 4,
                 itemStyle: {
                     color: "#8283A0",
-                    fontSize: "11px",
+                    fontSize: "13px",
                     fontWeight: "normal",
                     fontFamily: "Arial",
                 },
                 itemHoverStyle: {
                     color: "#8283A0",
-                    fontSize: "11px",
+                    fontSize: "13px",
                     fontFamily: "Arial",
                     fontWeight: 'normal'
                 },
@@ -129,7 +127,7 @@ class skillBarChart extends Component {
                             color: "#979AB1",
                             textOutline: "none",
                             fontWeight: "normal",
-                            fontSize: "11px",
+                            fontSize: "13px",
                             fontFamily: "Arial",
                         },
                     }
@@ -143,7 +141,8 @@ class skillBarChart extends Component {
                     borderWidth: 0,
                     pointWidth: 15,
                     groupPadding: 0,
-                    centerInCategory: true
+                    centerInCategory: true,
+                    color: '#212AA5'
                 }
             },
             series: skillsData,

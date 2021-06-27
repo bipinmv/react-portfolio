@@ -163,6 +163,14 @@
 	animation: slidein 1.5s;
 }
 
+.timeline-work-icon {
+	left: 26px !important;
+}
+
+.timeline-grad-icon {
+	left: 23px !important;
+}
+
 @keyframes slidein {
 	from {
 		margin-top: 10%;
@@ -185,5 +193,12 @@
 
 /* Media queries */
 
-@media only screen and (min-width: 600px) and (max-width: 600px) {
+@media only screen and (min-width: 380px) and (max-width: 1180px) {
+	.timeline-work-icon {
+		left: 14px !important;
+	}
+
+	.timeline-grad-icon {
+		left: 11px !important;
+	}
 }
