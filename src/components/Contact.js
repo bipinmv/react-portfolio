@@ -5,13 +5,14 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope, faPhoneAlt } from "@fortawesome/free-solid-svg-icons";
 import { contactDetails } from "../utils/helperList";
+import ContactSvg from "../utils/contact";
 
 const Contact = () => {
   return (
     <>
       <CustomNav />
       <Container className="pt-lg-5">
-        <Row className="mt-5">
+        <Row className="mt-5 mb-3">
           <Col xs={12} md={9}>
             <CardDeck>
               {contactDetails.map(obj => (
@@ -44,6 +45,9 @@ const Contact = () => {
             </div>
           </Col>
         </Row>
+        <div className="d-none d-md-block">
+          <ContactSvg />
+        </div>
       </Container>
     </>
   )

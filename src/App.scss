@@ -171,6 +171,20 @@
 	left: 23px !important;
 }
 
+.home-container {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 1;
+}
+
+.resume-btn {
+	&:hover {
+		background-image: linear-gradient(to top right, #091292, #2631d4);
+	}
+}
+
 @keyframes slidein {
 	from {
 		margin-top: 10%;
@@ -193,12 +207,12 @@
 
 /* Media queries */
 
-@media only screen and (min-width: 380px) and (max-width: 1180px) {
+@media only screen and (min-width: 320px) and (max-width: 1168px) {
 	.timeline-work-icon {
-		left: 14px !important;
+		left: 16px !important;
 	}
 
 	.timeline-grad-icon {
-		left: 11px !important;
+		left: 13px !important;
 	}
 }

@@ -9,8 +9,9 @@ import Contact from "./components/Contact";
 
 const RedirectHoc = props => {
   const { location: { search } } = props;
+  console.log({ search })
   if (search) {
-    const [, redirectPageUrl] = search.split('q=');
+    const [, redirectPageUrl] = search.split('p=');
     if (redirectPageUrl) {
       return <Redirect to={redirectPageUrl} />;
     }
