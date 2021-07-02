@@ -99,17 +99,17 @@ export const projectsList = [{
 }];
 
 export const contactDetails = [{
-  iconSrc: "https://img.icons8.com/color/144/000000/phone.png",
+  iconSrc: "static/icons/phone.png",
   type: "Contact Number",
   data: "+91 9895051128"
 },
 {
-  iconSrc: "https://img.icons8.com/color/144/000000/gmail.png",
+  iconSrc: "static/icons/gmail.png",
   type: "Email",
   data: "bipinmv23@gmail.com"
 },
 {
-  iconSrc: "https://img.icons8.com/color/144/000000/domain.png",
+  iconSrc: "static/icons/domain.png",
   type: "Website",
   data: "bipinmv.github.io"
 }]

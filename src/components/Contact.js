@@ -11,8 +11,8 @@ const Contact = () => {
   return (
     <>
       <CustomNav />
-      <Container className="pt-lg-5">
-        <Row className="mt-5 mb-3">
+      <Container className="pt-lg-3">
+        <Row className="mt-3 mt-lg-4 mb-3">
           <Col xs={12} md={9}>
             <CardDeck>
               {contactDetails.map(obj => (

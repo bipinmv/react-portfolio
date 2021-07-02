@@ -13,7 +13,7 @@ const Home = () => {
   return (
     <>
       <CustomNav />
-      <Container className="h-100 home-container">
+      <Container className="h-100 home-container" role="main">
         <div className="d-flex h-100">
           <div className="my-auto w-lg-50">
             <div>
@@ -28,9 +28,9 @@ const Home = () => {
             </div>
             <div>
               <div className="d-flex mt-4">
-                <Button variant="" className="color-customBlue p-0 mr-3 border-0" onClick={() => window.open('https://github.com/bipinmv', '_blank')}><FontAwesomeIcon size="2x" icon={faGithubSquare} /></Button>
-                <Button variant="" className="color-customBlue p-0 mr-3 border-0" onClick={() => window.open('https://www.linkedin.com/in/bipin-mv', '_blank')}><FontAwesomeIcon size="2x" icon={faLinkedin} /></Button>
-                <Button variant="" className="color-customBlue p-0 mr-3 border-0" onClick={() => window.open('https://hackerrank.com/bipinmv23', '_blank')}><FontAwesomeIcon spin size="2x" icon={faHackerrank} /></Button>
+                <Button variant="" className="color-customBlue p-0 mr-3 border-0" aria-label="github" onClick={() => window.open('https://github.com/bipinmv', '_blank')}><FontAwesomeIcon size="2x" icon={faGithubSquare} /></Button>
+                <Button variant="" className="color-customBlue p-0 mr-3 border-0" aria-label="linkedin" onClick={() => window.open('https://www.linkedin.com/in/bipin-mv', '_blank')}><FontAwesomeIcon size="2x" icon={faLinkedin} /></Button>
+                <Button variant="" className="color-customBlue p-0 mr-3 border-0" aria-label="hackerrank" onClick={() => window.open('https://hackerrank.com/bipinmv23', '_blank')}><FontAwesomeIcon spin size="2x" icon={faHackerrank} /></Button>
               </div><br />
               <Button className="bg-customBlue font-weight-bold shadow-sm border-0 resume-btn" onClick={() => window.open('/static/Bipin_mv_resume.pdf', '_blank')}>Download Resume</Button>
             </div>

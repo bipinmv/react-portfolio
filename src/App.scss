@@ -2,20 +2,10 @@
   text-decoration: none;
 } */
 
-.text-link,
-.text-link:hover {
-	color: #fff;
-	text-decoration: none;
-}
-
 .nav-color {
 	background-color: #fff;
 	z-index: 2;
 	font-size: 19px;
-}
-
-.text-bolder {
-	font-weight: 700;
 }
 
 .text-boldest {
@@ -38,26 +28,20 @@
 	background-color: #091292 !important;
 }
 
-.bg-skyBlue {
-	background-color: skyblue !important;
-}
-
-.align-self-center {
-	align-self: center;
-}
-
 .b-logo {
 	width: 40px;
 	background-color: #071b4b;
 	height: 40px;
 	text-align: center;
-	/* padding-top: -15px; */
 	font-size: 28px;
 	border-radius: 10px;
 }
 
 .navLink {
 	min-width: 100px;
+	&:hover {
+		font-weight: bold;
+	}
 }
 
 .skillsImg {
@@ -65,11 +49,10 @@
 	transition: width 0.15s;
 	transition-timing-function: ease-in-out;
 	cursor: pointer;
-}
-
-.skillsImg:hover {
-	width: 90px;
-	filter: none;
+	&:hover {
+		width: 90px;
+		filter: none;
+	}
 }
 
 .justify-content-evenly {
@@ -87,6 +70,12 @@
 }
 
 /* Contact page */
+
+.text-link,
+.text-link:hover {
+	color: #fff;
+	text-decoration: none;
+}
 
 .contact-btns span {
 	max-width: 0;
@@ -194,6 +183,10 @@
 	&:hover {
 		color: #091292;
 	}
+}
+
+.dashed-border {
+	border-style: dashed;
 }
 
 @keyframes slidein {
