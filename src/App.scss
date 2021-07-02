@@ -11,6 +11,7 @@
 .nav-color {
 	background-color: #fff;
 	z-index: 2;
+	font-size: 19px;
 }
 
 .text-bolder {
@@ -129,8 +130,13 @@
 	width: 35%;
 }
 
-.contactCard {
+.contactCard,
+.skill-icons-container {
 	animation: slidein 1.5s;
+}
+
+.proj-slide {
+	animation: slidein 2s;
 }
 
 .contactCard:hover {
@@ -159,10 +165,6 @@
 	text-align: right;
 }
 
-.skill-icons-container {
-	animation: slidein 1.5s;
-}
-
 .timeline-work-icon {
 	left: 26px !important;
 }
@@ -185,9 +187,29 @@
 	}
 }
 
+.bipin-signature {
+	font-family: 'Arizonia', cursive;
+	font-size: 2.7rem;
+	color: #191e69;
+	&:hover {
+		color: #091292;
+	}
+}
+
 @keyframes slidein {
 	from {
 		margin-top: 10%;
+		opacity: 0;
+	}
+	to {
+		margin-top: 0%;
+		opacity: 1;
+	}
+}
+
+@keyframes slideout {
+	from {
+		margin-top: -2%;
 		opacity: 0;
 	}
 	to {
@@ -214,5 +236,11 @@
 
 	.timeline-grad-icon {
 		left: 13px !important;
+	}
+}
+
+@media only screen and (min-width: 768px) {
+	.nav-slide {
+		animation: slideout 1.5s;
 	}
 }

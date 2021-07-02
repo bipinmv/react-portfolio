@@ -88,7 +88,7 @@
       },
       "onclick": {
         "enable": true,
-        "mode": "push"
+        "mode": "trail"
       },
       "resize": true
     },

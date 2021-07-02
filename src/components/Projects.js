@@ -8,7 +8,7 @@ const Projects = () => {
     <>
       <CustomNav />
       <Container className="mt-5">
-        <h2 className="color-customBlue ml-lg-5 proj-opacity">Weekend | Academic projects</h2>
+        <h2 className="color-customBlue ml-lg-5 proj-slide">Weekend | Academic projects</h2>
         {projectsList.map(proj => (
           <Row className="my-5 px-md-5 proj-opacity" xs={1} md={2} key={proj.label}>
             <Col>

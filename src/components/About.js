@@ -8,7 +8,7 @@ import { faBriefcase, faGraduationCap } from "@fortawesome/free-solid-svg-icons"
 const About = () => {
     return (
         <>
-            <Container className="mt-5 mr-lg-5" fluid>
+            <Container className="mt-2 mr-lg-5" fluid>
                 <Row xs={1} md={2}>
                     <Col className="mb-3">
                         <VerticalTimeline>
