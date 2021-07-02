@@ -1,33 +1,33 @@
 export const skillsData = [{
   name: 'React',
-  data: [70, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  rating: 70
 }, {
   name: 'Javascript',
-  data: [0, 75, 0, 0, 0, 0, 0, 0, 0, 0]
+  rating: 75
 }, {
   name: 'Node JS',
-  data: [0, 0, 45, 0, 0, 0, 0, 0, 0, 0]
+  rating: 45
 }, {
   name: 'CSS',
-  data: [0, 0, 0, 65, 0, 0, 0, 0, 0, 0]
+  rating: 65
 }, {
   name: 'Python',
-  data: [0, 0, 0, 0, 60, 0, 0, 0, 0, 0]
+  rating: 60
 }, {
   name: 'Django',
-  data: [0, 0, 0, 0, 0, 55, 0, 0, 0, 0]
+  rating: 40
 }, {
   name: 'Highcharts',
-  data: [0, 0, 0, 0, 0, 0, 65, 0, 0, 0]
+  rating: 65
 }, {
   name: 'HTML',
-  data: [0, 0, 0, 0, 0, 0, 0, 60, 0, 0]
+  rating: 60
 }, {
   name: 'Bootstrap',
-  data: [0, 0, 0, 0, 0, 0, 0, 0, 65, 0]
+  rating: 65
 }, {
   name: 'Material UI',
-  data: [0, 0, 0, 0, 0, 0, 0, 0, 0, 30]
+  rating: 30
 },];
 
 
