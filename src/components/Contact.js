@@ -45,9 +45,7 @@ const Contact = () => {
             </div>
           </Col>
         </Row>
-        <div className="d-none d-md-block">
-          <ContactSvg />
-        </div>
+        <ContactSvg />
       </Container>
     </>
   )
