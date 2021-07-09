@@ -17,13 +17,15 @@ const Contact = () => {
             <CardDeck>
               {contactDetails.map(obj => (
                 <Card className="contactCard" key={obj.type}>
-                  <div className="shadow d-flex justify-content-center text-center flex-column py-3">
-                    <div>
-                      <img className="contactImg" src={obj.iconSrc} alt={obj.type} />
+                  <a href={obj.href} className="text-link" target="_blank" rel="noreferrer">
+                    <div className="shadow d-flex justify-content-center text-center flex-column py-3">
+                      <div>
+                        <img className="contactImg" src={obj.iconSrc} alt={obj.type} />
+                      </div>
+                      <span className="text-muted mt-2 mb-3">{obj.type}</span>
+                      <span className="color-customBlue">{obj.data}</span>
                     </div>
-                    <span className="text-muted mt-2 mb-3">{obj.type}</span>
-                    <span className="color-customBlue">{obj.data}</span>
-                  </div>
+                  </a>
                 </Card>
               ))}
             </CardDeck>

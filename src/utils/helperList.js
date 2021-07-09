@@ -33,43 +33,43 @@ export const skillsData = [{
 
 export const skillsList = [{
   label: 'React JS',
-  src: 'https://img.icons8.com/color/144/000000/react-native.png',
+  src: '/static/icons/reactjs.svg',
 }, {
   label: 'Javascript',
-  src: 'https://img.icons8.com/color/144/000000/javascript.png',
+  src: '/static/icons/javascript.png',
 }, {
   label: 'Node JS',
-  src: 'https://img.icons8.com/color/144/000000/nodejs.png',
+  src: '/static/icons/nodejs.svg',
 }, {
   label: 'Express JS',
-  src: 'https://i.ibb.co/9smDM6j/pngegg.png'
+  src: '/static/icons/express.png'
 }, {
   label: 'Git',
-  src: 'https://img.icons8.com/color/144/000000/git.png'
+  src: '/static/icons/git.svg'
 }, {
   label: 'Python',
-  src: 'https://img.icons8.com/color/144/000000/python.png'
+  src: '/static/icons/python.png'
 }, {
   label: 'Material UI',
-  src: 'https://img.icons8.com/color/144/000000/material-ui.png'
+  src: '/static/icons/material.svg'
 }, {
   label: 'Bootstrap',
-  src: 'https://i.ibb.co/zx0Tt9M/bootstrap.png'
+  src: '/static/icons/bootstrap.png'
 }, {
   label: 'Sass',
-  src: 'https://img.icons8.com/color/144/000000/sass.png'
+  src: '/static/icons/sass.svg'
 }, {
   label: 'Highcharts',
-  src: 'https://i.ibb.co/8KSXBXq/highcharts.png'
+  src: '/static/icons/highcharts.svg'
 }, {
   label: 'HTML5',
-  src: 'https://img.icons8.com/color/144/000000/html-5.png'
+  src: '/static/icons/html.png'
 }, {
   label: 'PostgreSQL',
-  src: 'https://img.icons8.com/color/144/000000/postgresql.png'
+  src: '/static/icons/postgres.png'
 }, {
   label: 'CSS3',
-  src: 'https://img.icons8.com/color/144/000000/css3.png'
+  src: '/static/icons/css3.png'
 }];
 
 export const projectsList = [{
@@ -99,17 +99,19 @@ export const projectsList = [{
 }];
 
 export const contactDetails = [{
+  iconSrc: "static/icons/gmail.svg",
+  type: "Email",
+  data: "bipinmv23@gmail.com",
+  href: "mailto:bipinmv23@gmail.com?subject='Hello !'"
+}, {
+  iconSrc: "static/icons/linkedin.svg",
+  type: "LinkedIn",
+  data: "Bipin MV",
+  href: "https://www.linkedin.com/in/bipin-mv"
+},
+{
   iconSrc: "static/icons/phone.png",
   type: "Contact Number",
-  data: "+91 9895051128"
-},
-{
-  iconSrc: "static/icons/gmail.png",
-  type: "Email",
-  data: "bipinmv23@gmail.com"
-},
-{
-  iconSrc: "static/icons/domain.png",
-  type: "Website",
-  data: "bipinmv.github.io"
+  data: "+91 9895051128",
+  href: "tel:+919895051128"
 }]

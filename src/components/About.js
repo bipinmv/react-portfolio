@@ -54,7 +54,7 @@ const About = () => {
                             </VerticalTimelineElement>
                         </VerticalTimeline>
                     </Col>
-                    <Col className="px-lg-5 mb-5">
+                    <Col className="px-lg-5 mb-2">
                         <div className="px-lg-5 about-text text-justify">
                             <p className="about-me-block">About</p>
                             <p>
@@ -66,6 +66,9 @@ const About = () => {
                                 Prefer to work in a team and to have strong communication with every member, to increase my own and team skills and produce the perfect product.
                                 Have the desire to learn and develop something new, as well as adhere to the rule "Good code is beautiful code" and try to follow all standards of the modern development process.
                             </p>
+                        </div>
+                        <div className="text-center mt-5">
+                            <img src="static/images/programmer.svg" alt="programmer" className="programmer" />
                         </div>
                     </Col>
                 </Row>

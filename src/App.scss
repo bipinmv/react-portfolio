@@ -189,6 +189,10 @@
 	border-style: dashed;
 }
 
+.programmer {
+	width: 50%;
+}
+
 @keyframes slidein {
 	from {
 		margin-top: 10%;
@@ -229,6 +233,10 @@
 
 	.timeline-grad-icon {
 		left: 13px !important;
+	}
+
+	.programmer {
+		width: 100%;
 	}
 }
 
