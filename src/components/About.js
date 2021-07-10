@@ -58,9 +58,8 @@ const About = () => {
                         <div className="px-lg-5 about-text text-justify">
                             <p className="about-me-block">About</p>
                             <p>
-                                Full-stack developer with front-end preferring.
-                                Have strong experience in React.JS.
-                                Basically have experience in web development, but always open to new directions of programming.
+                                A full-stack developer from Kerala.
+                                Have strong experience in developing UI and CRUD APIs, and always open to new directions of programming.
                             </p>
                             <p>
                                 Prefer to work in a team and to have strong communication with every member, to increase my own and team skills and produce the perfect product.
