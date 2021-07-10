@@ -1,6 +1,6 @@
 import React from "react";
 import CustomNav from "./NavBar";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col, Badge } from "react-bootstrap";
 import { projectsList } from "../utils/helperList";
 
 const Projects = () => {
@@ -25,6 +25,9 @@ const Projects = () => {
               {proj.githubSrc && <>
                 Source code: <a href={proj.githubSrc} target="_blank" rel="noopener noreferrer">{proj.githubSrc}</a><br />
               </>}
+              <div className="mt-2">
+                {proj.stack.map(obj => <Badge pill variant="secondary" className="mr-1">{obj}</Badge>)}
+              </div>
             </Col>
           </Row>
         ))}

@@ -77,25 +77,36 @@ export const projectsList = [{
   imgSrc: 'static/images/resume-builder.png',
   src: 'https://bipinmv.github.io/resume-builder/',
   githubSrc: 'https://github.com/bipinmv/resume-builder',
-  description: 'Front-end for resume builder made using React.JS'
+  description: 'Front-end for resume builder made using React.JS',
+  stack: ["React.js"]
 }, {
   label: 'Smart Shopping search',
   imgSrc: 'static/images/smart-search.png',
   src: '',
   githubSrc: 'https://github.com/bipinmv/smart-shopping-search',
-  description: 'E-commerce web app made using Django 3.0'
+  description: 'E-commerce web app made using Django 3.0',
+  stack: ["Django"]
 }, {
   label: 'Movie Finder',
   imgSrc: 'static/images/movie-finder.png',
   src: 'https://bipinmv.github.io/movie-finder/',
   githubSrc: 'https://github.com/bipinmv/movie-finder',
-  description: 'You can see a list of movies released in a particular year'
+  description: 'User can see a list of movies released in a particular year',
+  stack: ["React.js", "IMDB Data Source"]
 }, {
   label: 'Video Player',
   imgSrc: 'static/images/video-player.png',
   src: 'https://bipinmv.github.io/video-player/',
   githubSrc: 'https://github.com/bipinmv/video-player',
-  description: ''
+  description: '',
+  stack: ["React.js", "Mixkit CDN"]
+}, {
+  label: 'Task Manager',
+  imgSrc: 'static/images/task-manager.png',
+  src: 'https://bipinmv.github.io/task-manager/',
+  githubSrc: 'https://github.com/bipinmv/task-manager',
+  description: 'User can sign-up/login and add tasks. And also able to assign task to others, track progress, change status and add comments.',
+  stack: ["React.js", "Firebase"]
 }];
 
 export const contactDetails = [{
