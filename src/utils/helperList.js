@@ -84,8 +84,8 @@ export const projectsList = [{
   imgSrc: 'static/images/smart-search.png',
   src: '',
   githubSrc: 'https://github.com/bipinmv/smart-shopping-search',
-  description: 'E-commerce web app made using Django 3.0',
-  stack: ["Django"]
+  description: 'This is a web application in which user can search for a product without typing the keyword, instead they can use the audio recognition or object detection features to find a product.',
+  stack: ["Django", "HTML", "CSS"]
 }, {
   label: 'Movie Finder',
   imgSrc: 'static/images/movie-finder.png',
@@ -100,6 +100,13 @@ export const projectsList = [{
   githubSrc: 'https://github.com/bipinmv/video-player',
   description: '',
   stack: ["React.js", "Mixkit CDN"]
+}, {
+  label: 'URL Shortener',
+  imgSrc: 'static/images/url-shortener.png',
+  src: 'https://bipinmv.pythonanywhere.com',
+  githubSrc: 'https://github.com/bipinmv/url-shortener',
+  description: 'User can shorten lengthy URLs. Users with account can see all the list of shortened URLs in their dashboard',
+  stack: ["Django", "HTML", "CSS"]
 }, {
   label: 'Task Manager',
   imgSrc: 'static/images/task-manager.png',
