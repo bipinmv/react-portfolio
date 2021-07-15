@@ -20,7 +20,6 @@ const CustomNav = () => {
 
   return (
     <Navbar bg="" expand="md" className="nav-color nav-slide">
-      {/* <Link className="font-weight-bold b-logo text-white text-decoration-none" to="/">B</Link> */}
       <Link className="text-decoration-none bipin-signature" to="/">{"< Bipin mv />"}</Link>
       <Navbar.Toggle className="border-0" aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav" className="bg-white">

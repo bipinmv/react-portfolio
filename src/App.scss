@@ -130,7 +130,11 @@
 
 .contactCard:hover {
 	cursor: pointer;
-	box-shadow: 1px 1px 10px grey !important;
+	box-shadow: 1px 1px 7px grey !important;
+}
+
+.contact .card {
+	border: none !important;
 }
 
 .about-text {

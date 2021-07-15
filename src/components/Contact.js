@@ -14,7 +14,7 @@ const Contact = () => {
       <Container className="pt-lg-3">
         <Row className="mt-3 mt-lg-4 mb-3">
           <Col xs={12} md={9}>
-            <CardDeck>
+            <CardDeck className="contact">
               {contactDetails.map(obj => (
                 <Card className="contactCard" key={obj.type}>
                   <a href={obj.href} className="text-link" target="_blank" rel="noreferrer">
