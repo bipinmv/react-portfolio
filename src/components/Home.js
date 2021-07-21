@@ -19,7 +19,7 @@ const Home = () => {
             <div>
               <span className="color-customBlueLight h5 font-weight-bold">Hey !</span><br />
               <span className="color-nameBlue h1 font-weight-bold">I'm Bipin</span><br />
-              <span className="color-customBlueLight h3">
+              <span className="color-customBlueLight h4">
                 <Typist className="TypistExample-message" cursor={{ show: false }}>
                   <span>I'm a </span><span className="font-weight-bold">
                     <span className="font-weight-bold">front-end <span className="font-weight-normal">developer</span></span>
@@ -31,7 +31,7 @@ const Home = () => {
               <Button variant="" className="color-customBlue p-0 mr-3 border-0" aria-label="linkedin" onClick={() => window.open('https://www.linkedin.com/in/bipin-mv', '_blank')}><FontAwesomeIcon size="2x" icon={faLinkedin} /></Button>
               <Button variant="" className="color-customBlue p-0 mr-3 border-0" aria-label="hackerrank" onClick={() => window.open('https://hackerrank.com/bipinmv23', '_blank')}><FontAwesomeIcon spin size="2x" icon={faHackerrank} /></Button>
             </div>
-            <Button className="bg-customBlue font-weight-bold shadow-sm border-0 resume-btn" onClick={() => window.open('/static/Bipin_mv_resume.pdf', '_blank')}>Download Resume</Button>
+            <Button className="bg-customBlue font-weight-bold shadow-sm border-0 resume-btn" onClick={() => window.open('/static/Bipin_mv_resume.pdf', '_blank')}>View Resume</Button>
           </Col>
           <Col className="w-100 my-auto d-none d-md-block">
             <CodingSvg />

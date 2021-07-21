@@ -29,7 +29,7 @@ const CustomNav = () => {
               exact
               key={item.label}
               className="color-customBlue w-100 text-decoration-none text-center navLink mt-2"
-              activeClassName="font-weight-bold dashed-border"
+              activeClassName="font-weight-bold"
               to={item.route}
             >
               {item.label}

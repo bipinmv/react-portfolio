@@ -2,6 +2,8 @@
   text-decoration: none;
 } */
 
+@import url('https://fonts.googleapis.com/css2?family=Arizonia&display=swap');
+
 .nav-color {
 	background-color: #fff;
 	z-index: 2;
@@ -197,6 +199,15 @@
 	width: 50%;
 }
 
+.page-not-found {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-flow: row wrap;
+	font-weight: bold;
+	margin-top: 13%;
+}
+
 @keyframes slidein {
 	from {
 		margin-top: 10%;
@@ -241,6 +252,9 @@
 
 	.programmer {
 		width: 100%;
+	}
+	.page-not-found {
+		margin-top: 22%;
 	}
 }
 
