@@ -6,7 +6,7 @@ const FourOhFour = () => {
     <>
       <CustomNav />
       <div className="page-not-found">
-        <img src="static/images/oops.jpg" alt="not found" />
+        <img src="https://i.ibb.co/RSQNNYn/oops.jpg" alt="not found" />
         <h2>Page Not Found...!</h2>
       </div>
     </>
