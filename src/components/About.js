@@ -13,12 +13,16 @@ const About = () => {
                     <div className="px-lg-5 about-text text-justify">
                         <p className="about-me-block">About</p>
                         <p>
-                            A full-stack developer from Kerala.
+                            A Full Stack Developer from Kerala.
                             Have strong experience in developing UI and CRUD APIs, and always open to new directions of programming.
                         </p>
                         <p>
-                            Prefer to work in a team and to have strong communication with every member, to increase my own and team skills and produce the perfect product.
-                            Have the desire to learn and develop something new, as well as adhere to the rule "Good code is beautiful code" and try to follow all standards of the modern development process.
+                            Dedicated to creating and optimizing
+                            interactive, user-friendly and feature-rich web applications. Exposure to Front-end & Back-end web
+                            development, UI/UX and Progressive Web Application (PWA) development. Believe that continuous
+                            learning and belief are the key factors for achieving personal and professional success.
+                            Have the desire to learn and develop something new, as well as adhere to the rule
+                            "Good code is beautiful code" and try to follow all standards of the modern development process.
                         </p>
                     </div>
                     <div className="text-center mt-5">
