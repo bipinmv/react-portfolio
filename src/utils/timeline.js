@@ -26,7 +26,7 @@ const Timeline = () => {
             >
                 <h3 className="vertical-timeline-element-title">Associate Software Engineer</h3>
                 <h6 className="vertical-timeline-element-subtitle mt-1">Caparizon, Kochi</h6>
-                <p>React.JS | Node.JS | PostgreSQL</p>
+                <p>React.JS | Node.JS</p>
             </VerticalTimelineElement>
 
             <VerticalTimelineElement

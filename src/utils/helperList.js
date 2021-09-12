@@ -85,14 +85,14 @@ export const projectsList = [{
   src: '',
   githubSrc: 'https://github.com/bipinmv/smart-shopping-search',
   description: 'This is a web application in which user can search for a product without typing the keyword, instead they can use the audio recognition or object detection features to find a product.',
-  stack: ["Django", "HTML", "CSS"]
+  stack: ["Django", "JavaScript"]
 }, {
-  label: 'Movie Finder',
-  imgSrc: 'static/images/movie-finder.png',
-  src: 'https://bipinmv.github.io/movie-finder/',
-  githubSrc: 'https://github.com/bipinmv/movie-finder',
-  description: 'User can see a list of movies released in a particular year',
-  stack: ["React.js", "IMDB Data Source"]
+  label: 'Task Manager',
+  imgSrc: 'static/images/task-manager.png',
+  src: 'https://bipinmv.github.io/task-manager/',
+  githubSrc: 'https://github.com/bipinmv/task-manager',
+  description: 'User can sign-up/login and add tasks. And also able to assign task to others, track progress, change status and add comments.',
+  stack: ["React.js", "Firebase"]
 }, {
   label: 'Video Player',
   imgSrc: 'static/images/video-player.png',
@@ -108,12 +108,19 @@ export const projectsList = [{
   description: 'User can shorten lengthy URLs. Users with account can see all the list of shortened URLs in their dashboard',
   stack: ["Django", "HTML", "CSS"]
 }, {
-  label: 'Task Manager',
-  imgSrc: 'static/images/task-manager.png',
-  src: 'https://bipinmv.github.io/task-manager/',
-  githubSrc: 'https://github.com/bipinmv/task-manager',
-  description: 'User can sign-up/login and add tasks. And also able to assign task to others, track progress, change status and add comments.',
-  stack: ["React.js", "Firebase"]
+  label: 'OpenID Connect',
+  imgSrc: 'static/images/keycloak-login.png',
+  src: '',
+  githubSrc: 'https://github.com/bipinmv/openid-connect',
+  description: 'OpenID Connect using Keycloak',
+  stack: ["React.js", "oidc-react", "Keycloak"]
+}, {
+  label: 'Movie Finder',
+  imgSrc: 'static/images/movie-finder.png',
+  src: 'https://bipinmv.github.io/movie-finder/',
+  githubSrc: 'https://github.com/bipinmv/movie-finder',
+  description: 'User can see a list of movies released in a particular year',
+  stack: ["React.js", "IMDB Data Source"]
 }];
 
 export const contactDetails = [{

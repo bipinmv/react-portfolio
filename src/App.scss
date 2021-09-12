@@ -1,8 +1,7 @@
-/* a, a:visited, a:hover, a:active, a:link {
-  text-decoration: none;
-} */
-
 @import url('https://fonts.googleapis.com/css2?family=Arizonia&display=swap');
+
+$primaryColor: #091292 !important;
+$primaryColorLight: #8d81a5;
 
 .nav-color {
 	background-color: #fff;
@@ -14,39 +13,26 @@
 	font-weight: 900;
 }
 
-.color-customBlue {
-	color: #091292 !important;
+.color-custom-blue {
+	color: $primaryColor;
 }
 
-.color-customBlueLight {
-	color: #8d81a5 !important;
+.color-custom-grey {
+	color: $primaryColorLight;
 }
 
-.color-customBlueLighter {
-	color: #a299b6;
+.bg-custom-blue {
+	background-color: $primaryColor;
 }
 
-.bg-customBlue {
-	background-color: #091292 !important;
-}
-
-.b-logo {
-	width: 40px;
-	background-color: #071b4b;
-	height: 40px;
-	text-align: center;
-	font-size: 28px;
-	border-radius: 10px;
-}
-
-.navLink {
+.nav-link {
 	min-width: 100px;
 	&:hover {
 		font-weight: bold;
 	}
 }
 
-.skillsImg {
+.skills-img {
 	width: 80px;
 	transition: width 0.15s;
 	transition-timing-function: ease-in-out;
@@ -108,20 +94,20 @@
 	/* height: 90vh; */
 }
 
-.color-nameBlue {
+.color-name-blue {
 	color: #000a94 !important;
 }
 
-.iconCard {
+.icon-card {
 	height: 100px;
 	width: 90px;
 }
 
-.contactImg {
+.contact-img {
 	width: 35%;
 }
 
-.contactCard,
+.contact-card,
 .skill-icons-container {
 	animation: slidein 1.5s;
 }
@@ -130,7 +116,7 @@
 	animation: slidein 2s;
 }
 
-.contactCard:hover {
+.contact-card:hover {
 	cursor: pointer;
 	box-shadow: 1px 1px 7px grey !important;
 }
@@ -178,7 +164,7 @@
 
 .resume-btn {
 	&:hover {
-		background-image: linear-gradient(to top right, #091292, #2631d4);
+		background-image: linear-gradient(to top right, $primaryColor, #2631d4);
 	}
 }
 
@@ -187,7 +173,7 @@
 	font-size: 2.7rem;
 	color: #191e69;
 	&:hover {
-		color: #091292;
+		color: $primaryColor;
 	}
 }
 

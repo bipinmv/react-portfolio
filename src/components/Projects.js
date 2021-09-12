@@ -8,14 +8,14 @@ const Projects = () => {
     <>
       <CustomNav />
       <Container className="mt-5">
-        <h2 className="color-customBlue ml-lg-5 proj-slide">Weekend | Academic projects</h2>
+        <h2 className="color-custom-blue ml-lg-5 proj-slide">Weekend | Academic projects</h2>
         {projectsList.map(proj => (
           <Row className="my-5 px-md-5 proj-opacity" xs={1} md={2} key={proj.label}>
             <Col>
               <img className="img-fluid proj-image shadow" src={proj.imgSrc} alt={proj.label} loading="lazy" />
             </Col>
             <Col className="pt-2">
-              <h3 className="font-weight-bold color-customBlue mb-0">{proj.label}</h3><br />
+              <h3 className="font-weight-bold color-custom-blue mb-0">{proj.label}</h3><br />
               {proj.description && <>
                 <span>{proj.description}</span><br />
               </>}

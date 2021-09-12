@@ -17,21 +17,21 @@ const Home = () => {
         <Row xs={1} md={2} className="h-100">
           <Col className="my-auto">
             <div>
-              <span className="color-customBlueLight h5 font-weight-bold">Hey !</span><br />
-              <span className="color-nameBlue h1 font-weight-bold">I'm Bipin</span><br />
-              <span className="color-customBlueLight h4">
+              <span className="color-custom-grey h5 font-weight-bold">Hey !</span><br />
+              <span className="color-name-blue h1 font-weight-bold">I'm Bipin</span><br />
+              <span className="color-custom-grey h4">
                 <Typist className="TypistExample-message" cursor={{ show: false }}>
                   <span>I'm a </span><span className="font-weight-bold">
                     <span className="font-weight-bold">front-end <span className="font-weight-normal">developer</span></span>
                     <Typist.Backspace count={19} delay={3500} /> full stack</span> developer </Typist></span><br />
-              <span className="color-customBlueLight h5">I specialized in developing pixel perfect user interfaces</span><br />
+              <span className="color-custom-grey h5">I specialized in developing pixel perfect user interfaces</span><br />
             </div>
             <div className="d-flex my-4">
-              <Button variant="" className="color-customBlue p-0 mr-3 border-0" aria-label="github" onClick={() => window.open('https://github.com/bipinmv', '_blank')}><FontAwesomeIcon size="2x" icon={faGithubSquare} /></Button>
-              <Button variant="" className="color-customBlue p-0 mr-3 border-0" aria-label="linkedin" onClick={() => window.open('https://www.linkedin.com/in/bipin-mv', '_blank')}><FontAwesomeIcon size="2x" icon={faLinkedin} /></Button>
-              <Button variant="" className="color-customBlue p-0 mr-3 border-0" aria-label="hackerrank" onClick={() => window.open('https://hackerrank.com/bipinmv23', '_blank')}><FontAwesomeIcon spin size="2x" icon={faHackerrank} /></Button>
+              <Button variant="" className="color-custom-blue p-0 mr-3 border-0" aria-label="github" onClick={() => window.open('https://github.com/bipinmv', '_blank')}><FontAwesomeIcon size="2x" icon={faGithubSquare} /></Button>
+              <Button variant="" className="color-custom-blue p-0 mr-3 border-0" aria-label="linkedin" onClick={() => window.open('https://www.linkedin.com/in/bipin-mv', '_blank')}><FontAwesomeIcon size="2x" icon={faLinkedin} /></Button>
+              <Button variant="" className="color-custom-blue p-0 mr-3 border-0" aria-label="hackerrank" onClick={() => window.open('https://hackerrank.com/bipinmv23', '_blank')}><FontAwesomeIcon spin size="2x" icon={faHackerrank} /></Button>
             </div>
-            <Button className="bg-customBlue font-weight-bold shadow-sm border-0 resume-btn" onClick={() => window.open('/static/Bipin_mv_resume.pdf', '_blank')}>View Resume</Button>
+            <Button className="bg-custom-blue font-weight-bold shadow-sm border-0 resume-btn" onClick={() => window.open('/static/Bipin_mv_resume.pdf', '_blank')}>View Resume</Button>
           </Col>
           <Col className="w-100 my-auto d-none d-md-block">
             <CodingSvg />

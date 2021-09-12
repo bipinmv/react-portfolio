@@ -4,7 +4,7 @@ import { Container, Row, Col, Spinner } from "react-bootstrap";
 import { skillsList, skillsData } from "../utils/helperList";
 
 const SkillsBarChart = lazy(() => import("../utils/skillBarChart"));
-const IconCard = lazy(() => import("./IconCard"));
+const IconCard = lazy(() => import("../utils/IconCard"));
 
 const Skills = () => {
 
