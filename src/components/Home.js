@@ -17,13 +17,13 @@ const Home = () => {
         <Row xs={1} md={2} className="h-100">
           <Col className="my-auto">
             <div>
-              <span className="color-custom-grey h5 font-weight-bold">Hey !</span><br />
-              <span className="color-name-blue h1 font-weight-bold">I'm Bipin</span><br />
+              <h5 className="color-custom-grey font-weight-bold mb-0">Hey !</h5>
+              <h1 className="color-name-blue text-boldest mb-0">I'm Bipin</h1>
               <span className="color-custom-grey h4">
                 <Typist className="TypistExample-message" cursor={{ show: false }}>
                   <span>I'm a </span><span className="font-weight-bold">
-                    <span className="font-weight-bold">front-end <span className="font-weight-normal">developer</span></span>
-                    <Typist.Backspace count={19} delay={3500} /> full stack</span> developer </Typist></span><br />
+                    <span className="font-weight-bold">Front-end <span className="font-weight-normal">Developer</span></span>
+                    <Typist.Backspace count={19} delay={3500} /> Full Stack</span> Developer </Typist></span><br />
               <span className="color-custom-grey h5">I specialized in developing pixel perfect user interfaces</span><br />
             </div>
             <div className="d-flex my-4">

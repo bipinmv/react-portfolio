@@ -87,7 +87,7 @@ export const projectsList = [{
   description: 'This is a web application in which user can search for a product without typing the keyword, instead they can use the audio recognition or object detection features to find a product.',
   stack: ["Django", "JavaScript"]
 }, {
-  label: 'Task Manager',
+  label: 'Issue Tracker',
   imgSrc: 'static/images/task-manager.png',
   src: 'https://bipinmv.github.io/task-manager/',
   githubSrc: 'https://github.com/bipinmv/task-manager',
@@ -139,4 +139,24 @@ export const contactDetails = [{
   type: "Contact Number",
   data: "+91 9895051128",
   href: "tel:+919895051128"
-}]
+}];
+
+export const certficatesList = [{
+  src: "/static/certificates/cutshort-js.jpg",
+  href: "https://cutshort.io/certificate/49336"
+}, {
+  src: "/static/certificates/udemy-react.jpg",
+  href: "https://www.udemy.com/certificate/UC-2350232c-5445-4468-8159-db364223a096"
+}, {
+  src: "/static/certificates/upgrad-seo.png",
+  href: "https://www.credential.net/92615721-72a2-4ea9-a69a-fe3038bd12ac#gs.ambkfc"
+}, {
+  src: "/static/certificates/hackerrank-problem-solving.png",
+  href: "https://www.hackerrank.com/certificates/d50cee51cc2d"
+}, {
+  src: "/static/certificates/udemy-django.jpg",
+  href: "https://www.udemy.com/certificate/UC-c107d053-2ca5-4539-85bc-bda3b2b8a27b"
+}, {
+  src: "/static/certificates/hackerrank-python.png",
+  href: "https://www.hackerrank.com/certificates/ac3ddb85b525"
+}];
