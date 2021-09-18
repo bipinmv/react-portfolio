@@ -142,6 +142,9 @@ export const contactDetails = [{
 }];
 
 export const certficatesList = [{
+  src: "/static/certificates/upgrad-js.png",
+  href: "https://www.credential.net/7f1cd7a8-f73e-41a1-afe9-e53c9337c403#gs.bmmcl7"
+}, {
   src: "/static/certificates/cutshort-js.jpg",
   href: "https://cutshort.io/certificate/49336"
 }, {
