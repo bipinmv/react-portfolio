@@ -75,7 +75,7 @@ export const skillsList = [{
 export const projectsList = [{
   label: 'Resume Builder',
   imgSrc: 'static/images/resume-builder.png',
-  src: 'https://bipinmv.github.io/resume-builder/',
+  src: 'https://react-resume-maker.netlify.app/',
   githubSrc: 'https://github.com/bipinmv/resume-builder',
   description: 'Front-end for resume builder made using React.JS',
   stack: ["React.js"]
@@ -89,14 +89,14 @@ export const projectsList = [{
 }, {
   label: 'Issue Tracker',
   imgSrc: 'static/images/task-manager.png',
-  src: 'https://bipinmv.github.io/task-manager/',
+  src: 'https://react-issue-tracker.netlify.app/',
   githubSrc: 'https://github.com/bipinmv/task-manager',
   description: 'User can sign-up/login and add tasks. And also able to assign task to others, track progress, change status and add comments.',
   stack: ["React.js", "Firebase"]
 }, {
   label: 'Video Player',
   imgSrc: 'static/images/video-player.png',
-  src: 'https://bipinmv.github.io/video-player/',
+  src: 'https://mixkit-video-player.netlify.app/',
   githubSrc: 'https://github.com/bipinmv/video-player',
   description: '',
   stack: ["React.js", "Mixkit CDN"]
@@ -117,7 +117,7 @@ export const projectsList = [{
 }, {
   label: 'Movie Finder',
   imgSrc: 'static/images/movie-finder.png',
-  src: 'https://bipinmv.github.io/movie-finder/',
+  src: 'https://react-movies-finder.netlify.app/',
   githubSrc: 'https://github.com/bipinmv/movie-finder',
   description: 'User can see a list of movies released in a particular year',
   stack: ["React.js", "IMDB Data Source"]
