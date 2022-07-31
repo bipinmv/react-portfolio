@@ -1,6 +1,5 @@
-import React from "react";
-import "./App.scss";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
+import "./App.scss";
 import Home from "./components/Home";
 import PageNotFound from "./components/PageNotFound";
 import Skills from "./components/Skills";

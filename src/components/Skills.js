@@ -1,35 +1,27 @@
-import React, { useEffect, useState, lazy, Suspense } from "react";
+import { useEffect, useState, lazy, Suspense, useCallback } from "react";
 import CustomNav from "./NavBar";
 import { Container, Row, Col, Spinner, Carousel } from "react-bootstrap";
 import { skillsList, skillsData, certficatesList } from "../utils/helperList";
 
-const SkillsBarChart = lazy(() => import("../utils/skillBarChart"));
-const IconCard = lazy(() => import("../utils/IconCard"));
+const SkillsBarChart = lazy(() => import("../utils/barChart"));
+const IconCard = lazy(() => import("../utils/iconCard"));
 
 const Skills = () => {
-
   const [barData, setBarData] = useState([]);
 
-  useEffect(() => {
-    setChartData(skillsData);
-  }, []);
-
-  const setChartData = (skillsData) => {
-
-    const skillNames = skillsData.map(obj => obj.name);
+  const setChartData = useCallback((data) => {
+    const skillNames = data.map(obj => obj.name);
 
     // initialize data with 0.
     const defaultSkillData = skillNames.map(() => 0)
-
-    const nameWiseData = skillsData.map(obj => {
-      let tempObj = {
+    const nameWiseData = data.map(obj => {
+      return {
         name: obj.name,
         data: defaultSkillData
       };
-      return tempObj;
     });
 
-    skillsData.forEach(skillsDataObj => {
+    data.forEach(skillsDataObj => {
       nameWiseData.forEach(categoryObj => {
         if (skillsDataObj.name === categoryObj.name) {
           let categoryIndex = skillNames.indexOf(skillsDataObj.name);
@@ -43,7 +35,12 @@ const Skills = () => {
     });
 
     setBarData(nameWiseData);
-  }
+  }, []);
+
+  useEffect(() => {
+    setChartData(skillsData);
+  }, [setChartData]);
+
 
   return (
     <>

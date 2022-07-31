@@ -5,17 +5,17 @@ export const skillsData = [{
   name: 'Javascript',
   rating: 75
 }, {
-  name: 'Node JS',
+  name: 'Express JS',
   rating: 45
 }, {
   name: 'CSS',
   rating: 65
 }, {
-  name: 'Python',
-  rating: 60
+  name: 'TypeScript',
+  rating: 50
 }, {
-  name: 'Django',
-  rating: 40
+  name: 'Zustand',
+  rating: 60
 }, {
   name: 'Highcharts',
   rating: 65
@@ -26,8 +26,8 @@ export const skillsData = [{
   name: 'Bootstrap',
   rating: 65
 }, {
-  name: 'Material UI',
-  rating: 30
+  name: 'SCSS',
+  rating: 40
 },];
 
 
@@ -47,8 +47,8 @@ export const skillsList = [{
   label: 'Git',
   src: '/static/icons/git.svg'
 }, {
-  label: 'Python',
-  src: '/static/icons/python.png'
+  label: 'TypeScript',
+  src: '/static/icons/typescript.png'
 }, {
   label: 'Material UI',
   src: '/static/icons/material.svg'

@@ -1,4 +1,3 @@
-import React from "react";
 import { Navbar, Nav } from "react-bootstrap";
 import { NavLink, Link } from "react-router-dom";
 
@@ -17,7 +16,6 @@ const navItems = [{
 }]
 
 const CustomNav = () => {
-
   return (
     <Navbar bg="" expand="md" className="nav-color nav-slide">
       <Link className="text-decoration-none bipin-signature" to="/">{"< Bipin mv />"}</Link>

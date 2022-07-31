@@ -1,15 +1,13 @@
-import React from "react";
 import CustomNav from "./NavBar";
 import { Container, Button, Row, Col } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithubSquare, faLinkedin, faHackerrank } from "@fortawesome/free-brands-svg-icons";
-import DeveloperSvg from "../utils/developer";
+import DeveloperSvg from "../utils/developerSvg";
 import Particles from "../utils/particles";
 import Typist from "react-typist";
 import About from "./About"
 
 const Home = () => {
-
   return (
     <>
       <CustomNav />

@@ -1,4 +1,3 @@
-import React from "react";
 import CustomNav from "./NavBar";
 import { Container, Row, Col, Badge } from "react-bootstrap";
 import { projectsList } from "../utils/helperList";

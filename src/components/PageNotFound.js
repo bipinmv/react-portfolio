@@ -1,7 +1,6 @@
-import React from "react";
 import CustomNav from "./NavBar";
 
-const FourOhFour = () => {
+const PageNotFound = () => {
   return (
     <>
       <CustomNav />
@@ -13,4 +12,4 @@ const FourOhFour = () => {
   )
 };
 
-export default FourOhFour;
+export default PageNotFound;

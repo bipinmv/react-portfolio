@@ -1,4 +1,3 @@
-import React from "react";
 import { Particles as ReactParticles } from "react-tsparticles";
 import options from "../config/particles.json";
 

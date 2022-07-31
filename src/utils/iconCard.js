@@ -1,5 +1,3 @@
-import React from "react";
-
 const IconCard = (props) => {
   return (
     <div className="d-flex justify-content-center align-items-center m-2 icon-card">

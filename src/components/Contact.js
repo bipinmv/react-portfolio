@@ -1,11 +1,10 @@
-import React from "react";
 import CustomNav from "./NavBar";
 import { Container, Button, Row, Col, CardDeck, Card } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope, faPhoneAlt } from "@fortawesome/free-solid-svg-icons";
 import { contactDetails } from "../utils/helperList";
-import ContactSvg from "../utils/contact";
+import ContactSvg from "../utils/contactSvg";
 
 const Contact = () => {
   return (

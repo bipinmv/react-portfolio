@@ -1,19 +1,16 @@
-import React, { Component } from "react";
+import { useState, useEffect } from "react";
 import Highcharts from "highcharts";
 import HighchartsReact from "highcharts-react-official";
 
-class skillBarChart extends Component {
-    constructor(props) {
-        super(props);
-        this.state = {
-            chartOptions: {}
-        };
-    }
-    componentDidMount = () => {
-        this.setChartData(this.props.skillsData, this.props.skills)
-    }
+const BarChart = (props) => {
+    const [chartOptions, setChartOptions] = useState({})
 
-    setChartData = (skillsData, skills) => {
+    useEffect(() => {
+        setChartData(props.skillsData, props.skills);
+    }, [props.skills, props.skillsData])
+
+
+    const setChartData = (skillsData, skills) => {
         let options = {
             chart: {
                 type: "bar",
@@ -21,7 +18,6 @@ class skillBarChart extends Component {
                 height: 370,
                 border: 0
             },
-            //colors: ["#9999FF", "#8080FF", "#6666FF", "#4D4DFF", "#3333FF", "#9EC2FF", "#7B9FF2", "#4259C3", "#212AA5", "#000a94"],
             credits: {
                 enabled: false
             },
@@ -147,16 +143,14 @@ class skillBarChart extends Component {
             },
             series: skillsData,
         };
-        this.setState({ chartOptions: options });
+        setChartOptions(options);
     };
 
-    render() {
-        return (
-            <HighchartsReact
-                options={this.state.chartOptions}
-                highcharts={Highcharts}
-            />
-        );
-    }
+    return (
+        <HighchartsReact
+            options={chartOptions}
+            highcharts={Highcharts}
+        />
+    );
 }
-export default skillBarChart;
+export default BarChart;

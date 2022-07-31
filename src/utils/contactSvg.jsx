@@ -1,5 +1,3 @@
-import React from "react";
-
 const ContactSvg = () => (
     <>
         <svg id="aaafdec0-95c8-49a3-a8f8-64216c6da511" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="100%" height="50%" viewBox="0 0 1013.44925 610.28138">
